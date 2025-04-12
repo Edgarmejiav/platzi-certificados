@@ -1,0 +1,114 @@
+Rate this course
+
+Close
+Now you learned:
+
+Implementa autenticación con JWT en Spring
+
+Desarrolla el sistema de roles y permisos para los usuarios de tu app.
+
+Controla la seguridad de tu base de datos y API REST con Spring Security
+
+Content:
+
+
+Teacher:
+
+
+Do you recommend this course?
+
+Tell the community what was the best part of this course (optional)
+
+Submit rating
+Rate this course
+
+Close
+My rating
+
+ExamSummary.modalReviewed.month-NaN NaN, NaN
+Content
+
+Teacher
+
+Curso de Java Spring Security: Autenticación y Seguridad Web
+Curso de Java Spring Security: Autenticación y Seguridad Web
+
+Congratulations!
+You passed the course. You can now access your digital diploma.
+
+9.33
+
+Score
+
+14/ 15
+
+Correct answers
+
+1.
+Sí la autenticación de un usuario es correcta, pero no tiene permisos para realizar la acción ¿Qué error debería retornar el API?
+403 Forbidden
+2.
+Al incluir la librería de Spring Security se habilita la seguridad por defecto de la aplicación, debiendo enviar el header Authorization para poder realizar llamados al API
+Verdadero
+3.
+¿Cuál es el usuario por defecto que Spring Security asigna cuando no existe configuración específica de seguridad?
+user
+4.
+¿Cuál de las siguientes opciones permite pasar todas las peticiones sin necesidad de header Authorization?
+http.permitAll()
+
+Review
+5.
+¿Cómo se deshabilita la protección ante CSRF dentro de la configuración de Spring Security?
+.csrf().disable()
+6.
+¿Sí deseo permitir que el API pueda ser consumida desde diferentes origenes que usen JS que debo hacer?
+Habilitar y generar configuración de CORS
+7.
+Sí quiero permitir TODAS las peticiones GET dentro de la aplicación, ¿Qué requestMatchers debería utilizar?
+.requestMatchers(HttpMethod.GET).permitAll()
+8.
+Sí quiero permitir a los usuarios que tengan el rol de ADMIN ó CHEF para que hagan peticiones PUT, ¿Qué requestMatchers debería utilizar?
+.requestMatchers(HttpMethod.PUT).hasAnyRole("ADMIN", "CHEF")
+9.
+¿Que excepción se debe lanzar cuando el UserDetailsService no encuentra un usuario en el repositorio?
+UsernameNotFoundException
+10.
+¿Qué sufijo llevan los ROLES de un usuario dentro de los GrantedAuthorities?
+ROLE_
+11.
+Sí quiero proteger un método de alguna clase (anotada como componente de Spring) para que únicamente sea ejecutado por un usuario que tenga el rol de CHEF, ¿Qué anotación debo usar sobre dicho método?
+@Secured("ROLE_CHEF")
+12.
+¿Qué información va dentro del subject de un *JWT*?
+El usuario
+13.
+¿Qué clase se debe usar para enviarle el usuario y contraseña al AuthenticationManager cuando se crea un proceso propio de autenticación?
+UsernamePasswordAuthenticationToken
+14.
+¿De qué filtro hereda el filtro personalizado que el JWT en cada petición?
+OncePerRequestFilter
+15.
+Sí se desea agregar un filtro personalizado al Filter Chain, antes del BasicAuthenticationFilter, ¿Qué instrucción se debe poner a la configuración de seguridad?
+.addFilterBefore(myFilter, BasicAuthenticationFilter.class)
+
+Show less
+Courses you might be interested in
+Curso de Intro al Despliegue de Aplicaciones
+Curso de Intro al Despliegue de Aplicaciones
+Curso de Intro al Despliegue de Aplicaciones
+By Santiago Bernal
+
+Curso de Introducción a DevOps
+Curso de Introducción a DevOps
+Curso de Introducción a DevOps
+By Jaivic Villegas
+
+Curso de DevOps
+Curso de DevOps
+Curso de DevOps
+By Yamil Asusta
+
+Go to Home
+
+Next course
